@@ -7,7 +7,7 @@ Feature: TO test google maps APIs
     Then The API call should be successful with status code 200
     And "status" in response body is "OK"
     And "scope" in response body is "APP"
-    And verify "<name>" in "GetPlaceAPI"
+    And verify "name" in "GetPlaceAPI"
 
     Examples:
     |name|address|website|
