@@ -14,7 +14,7 @@ public class GoogleAddPlaceAPIPojo {
     private location location;
     private List<String> types;
     
-    //jenkins git build run comment - To be removed
+    //jenkins git build run comment - To be removed 1
 
     public int getAccuracy() {
         return accuracy;
