@@ -16,7 +16,7 @@ public class hooks {
             g.add_place_payload_is_used_with("Carlton", "VIC 3053", "calrton.com");
             g.user_calls_with_http_request("AddPlaceAPI", "Post");
             g.verify_in_get_place_api("Carlton", "GetPlaceAPI");
-            //new comment git
+            //new comment git 1
         }
     }
 }
