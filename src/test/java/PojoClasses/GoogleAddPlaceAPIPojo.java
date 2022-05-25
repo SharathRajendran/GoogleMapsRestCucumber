@@ -13,6 +13,8 @@ public class GoogleAddPlaceAPIPojo {
     private String language;
     private location location;
     private List<String> types;
+    
+    //jenkins git build run comment - To be removed
 
     public int getAccuracy() {
         return accuracy;
